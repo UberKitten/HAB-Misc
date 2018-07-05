@@ -1,0 +1,2 @@
+# /etc/udev/rules.d/50-webcam.rules
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="076e", GROUP="users", MODE="0666"
